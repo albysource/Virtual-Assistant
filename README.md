@@ -11,6 +11,9 @@ for text to speach version 3 : pip install pyttsx3
 for pywhatkit: pip install pywhatkit
 
 
+install: pip install PyAudio (this might create some error if you are using version above python version 3.6 
+
+
 for date and time it can be directly imported
 
 
