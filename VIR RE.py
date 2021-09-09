@@ -30,11 +30,12 @@ def take_command():    ##defining another function inorder to take commands
                 command=command.replace("friday","")   ##Name also can be canged, eg: "Icarus"
                 ##talk(command)
                 ##print(command)
+            return command
+            
 
 
     except:
-        pass
-    return command
+        Print("Error with package installation")
 
 def run_assistant():
     command = take_command()
